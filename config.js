@@ -5,7 +5,7 @@ module.exports = {
   HEROKU_APP_NAME: process.env['HEROKU_APP_NAME'] || false,
   HEROKU_API_TOKEN: process.env['HEROKU_API_TOKEN'] || false,
   MODE: process.env['MODE'] || 'private',
-  PREFIX: process.env['PREFIX'] || '!',
+  PREFIX: process.env['PREFIX'] || '.',
   PLATFORM: process.env['PLATFORM'] || 'heroku',
   RBG_APIKEY: process.env['RBG_APIKEY'] || false,
 };
